@@ -1,0 +1,7 @@
+# Local Eclipse output; source and project metadata remain tracked
+bin/
+.metadata/
+.recommenders/
+.DS_Store
+Thumbs.db
+*~
