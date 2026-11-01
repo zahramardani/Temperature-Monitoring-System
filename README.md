@@ -4,6 +4,21 @@ Historical Eclipse/Xtext project material for a temperature-monitoring modelling
 
 [All projects](https://github.com/zahramardani/ML2PP-Artifacts/blob/main/PROJECTS.md) · [Smart-home design archive](https://github.com/zahramardani/Smart-Home-Heterogeneous-hardware-)
 
+
+## Technical focus
+
+The project preserves an early language-engineering example for a temperature-monitoring domain. The checked-in Eclipse metadata identifies an Xtext project named `org.xtext.example.mydsl1`, Java compilation and Eclipse plugin builders.
+
+| Metadata | What it establishes |
+|---|---|
+| Xtext builder and nature | Integration with the Xtext language-development workflow |
+| Java builder and classpath | Java source compilation with the recorded Java 8 execution environment |
+| PDE builders | Eclipse plugin manifest and schema build support |
+| Source-folder entries | Expected `src`, `src-gen` and `xtend-gen` directories |
+
+The archive is the starting point for recovering the project source. Successful import, language generation and a runtime-editor launch remain separate checks to perform in the restored environment.
+
+
 ## Project status
 
 This repository contains an original project archive and Eclipse project metadata. The language source and generated model folders referenced by that metadata are not expanded in the repository root.
@@ -37,27 +52,3 @@ A dependency lock, end-to-end build script and hardware execution instructions a
 - [Forecasting API and SQL portfolio](https://github.com/zahramardani/river_prediction).
 
 Original archive and metadata paths are retained for traceability.
-
-
-<!-- BEGIN FOLDER GUIDE -->
-## Folder guide
-
-An original Eclipse/Xtext project archive and the metadata used by the temperature-monitoring modelling project.
-
-[Repository overview](README.md) · [All projects](https://github.com/zahramardani/ML2PP-Artifacts/blob/main/PROJECTS.md)
-
-### Contents
-
-| Item | What it is |
-|---|---|
-| [.antlr-generator-3.2.0-patch.jar](.antlr-generator-3.2.0-patch.jar) | The ANTLR generator archive deposited with the original project. |
-| [.classpath](.classpath) | Eclipse Java classpath and source-folder metadata. |
-| [.gitignore](.gitignore) | Patterns excluding local caches, environments or generated outputs from new commits. |
-| [.project](.project) | Eclipse project, nature and builder metadata. |
-| [build.properties](build.properties) | Eclipse plugin build configuration. |
-| [org.xtext.example.mydsl1.rar](org.xtext.example.mydsl1.rar) | The original compressed Eclipse/Xtext project export. |
-| [plugin.xml](plugin.xml) | Eclipse plugin and generated EMF package registration. |
-
-**Start here:** [.antlr-generator-3.2.0-patch.jar](.antlr-generator-3.2.0-patch.jar).
-
-<!-- END FOLDER GUIDE -->
